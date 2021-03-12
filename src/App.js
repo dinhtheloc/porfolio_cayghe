@@ -122,7 +122,8 @@ function App() {
                       <div className="col-md order-md-1 d-flex align-items-end bg-primary">
 
                         {/*  Image */}
-                        <a href="./robo-advisor.html">
+                        <a target="_blank"
+                          href="/scroll-animation">
                           <img className="card-img-top" src="/p-scroll.png" alt="p-scroll" />
                         </a>
 
@@ -160,7 +161,8 @@ function App() {
                       <div className="col-md order-md-1 d-flex align-items-end bg-primary">
 
                         {/*  Image */}
-                        <a href="./analytics-saas.html">
+                        <a target="_blank"
+                          href="/background-animation">
                           <img className="card-img-top" src="/p-background-animation.png" alt="p-background-animation.png" />
                         </a>
 
