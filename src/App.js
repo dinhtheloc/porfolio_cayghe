@@ -125,7 +125,7 @@ function App() {
 
                         {/*  Image */}
                         <a target="_blank"
-                          href="/scroll-animation">
+                          href="/website/scroll-animation/index.html">
                           <img className="card-img-top" src="/p-scroll.png" alt="p-scroll" />
                         </a>
 
@@ -146,7 +146,7 @@ function App() {
                           {/*  Link */}
                           <a className="h6 text-uppercase text-decoration-none mt-auto"
                             target="_blank"
-                            href="/scroll-animation">
+                            href="/website/scroll-animation/index.html">
                             View <i className="fe fe-arrow-right"></i>
                           </a>
 
@@ -164,7 +164,7 @@ function App() {
 
                         {/*  Image */}
                         <a target="_blank"
-                          href="/background-animation">
+                          href="/website/background-animation/index.html">
                           <img className="card-img-top" src="/p-background-animation.png" alt="p-background-animation.png" />
                         </a>
 
@@ -183,7 +183,7 @@ function App() {
                           {/*  Link */}
                           <a className="h6 text-uppercase text-decoration-none mt-auto"
                             target="_blank"
-                            href="/background-animation">
+                            href="/website/background-animation/index.html">
                             View <i className="fe fe-arrow-right"></i>
                           </a>
 
@@ -200,7 +200,7 @@ function App() {
 
                         {/*  Image */}
                         <a target="_blank"
-                          href="/parallax-text-scrolling">
+                          href="/website/parallax-text-scrolling/index.html">
                           <img className="card-img-top" src="/p-parallax-text-scrolling.png" alt="p-parallax-text-scrolling" />
                         </a>
 
@@ -219,7 +219,7 @@ function App() {
                           {/*  Link */}
                           <a className="h6 text-uppercase text-decoration-none mt-auto"
                             target="_blank"
-                            href="/parallax-text-scrolling">
+                            href="/website/parallax-text-scrolling/index.html">
                             View <i className="fe fe-arrow-right"></i>
                           </a>
 
