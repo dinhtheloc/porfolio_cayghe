@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "cayghe-firebase"
+  },
+  "targets": {
+    "cayghe-firebase": {
+      "hosting": {
+        "production": [
+          "cayghe-firebase"
+        ]
+      }
+    }
   }
 }
