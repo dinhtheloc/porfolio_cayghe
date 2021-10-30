@@ -86,13 +86,13 @@ a:hover {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 0 solid rgba(27,22,66,.125);
+  border: 0 solid rgba(27, 22, 66, .125);
   border-radius: 0;
 }
 
 .card {
-  -webkit-box-shadow: 0 0 24px rgba(27,22,66,.04),0 44px 74px rgba(27,22,66,.06);
-  box-shadow: 0 0 24px rgba(27,22,66,.04),0 44px 74px rgba(27,22,66,.06)
+  -webkit-box-shadow: 0 0 24px rgba(27, 22, 66, .04), 0 44px 74px rgba(27, 22, 66, .06);
+  box-shadow: 0 0 24px rgba(27, 22, 66, .04), 0 44px 74px rgba(27, 22, 66, .06)
 }
 
 .card-footer {
@@ -119,30 +119,30 @@ a:hover {
 
 @media (min-width: 992px) {
   .card-body {
-      padding:3rem
+    padding: 3rem
   }
 
   .card-footer {
-      padding-left: 3rem;
-      padding-right: 3rem
+    padding-left: 3rem;
+    padding-right: 3rem
   }
 
   .card-lg .card-body {
-      padding: 5rem
+    padding: 5rem
   }
 
   .card-lg .card-footer {
-      padding-left: 5rem;
-      padding-right: 5rem
+    padding-left: 5rem;
+    padding-right: 5rem
   }
 
   .card-sm .card-body {
-      padding: 2rem
+    padding: 2rem
   }
 
   .card-sm .card-footer {
-      padding-left: 2rem;
-      padding-right: 2rem
+    padding-left: 2rem;
+    padding-right: 2rem
   }
 }
 
@@ -163,38 +163,39 @@ a:hover {
 
 @media (min-width: 768px) {
   .card-img-slider {
-      height:100%;
-      width: 100%
+    height: 100%;
+    width: 100%
   }
 
   .card-img-slider * {
-      height: inherit!important;
-      width: inherit!important
+    height: inherit !important;
+    width: inherit !important
   }
+
 }
 
 
 @media (min-width: 768px) {
   .card-stack {
-      display:grid;
-      grid-auto-rows: 1fr
+    display: grid;
+    grid-auto-rows: 1fr
   }
 
   .card-stack-item {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 140px
+    position: -webkit-sticky;
+    position: sticky;
+    top: 140px
   }
 
   .card-stack-item>.card {
-      height: 100%;
-      -webkit-transform-origin: top center;
-      -ms-transform-origin: top center;
-      transform-origin: top center
+    height: 100%;
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center
   }
 
   .card-stack-item>.card>.row {
-      height: inherit
+    height: inherit
   }
 }
 
@@ -213,7 +214,7 @@ a:hover {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 0 solid rgba(27,22,66,.125);
+  border: 0 solid rgba(27, 22, 66, .125);
   border-radius: 0
 }
 
@@ -239,7 +240,8 @@ a:hover {
   border-bottom-left-radius: 0
 }
 
-.card>.card-header+.list-group,.card>.list-group+.card-footer {
+.card>.card-header+.list-group,
+.card>.list-group+.card-footer {
   border-top: 0
 }
 
@@ -275,8 +277,8 @@ a:hover {
 .card-header {
   padding: 2rem 3rem;
   margin-bottom: 0;
-  background-color: rgba(27,22,66,.03);
-  border-bottom: 0 solid rgba(27,22,66,.125)
+  background-color: rgba(27, 22, 66, .03);
+  border-bottom: 0 solid rgba(27, 22, 66, .125)
 }
 
 .card-header:first-child {
@@ -285,8 +287,8 @@ a:hover {
 
 .card-footer {
   padding: 2rem 3rem;
-  background-color: rgba(27,22,66,.03);
-  border-top: 0 solid rgba(27,22,66,.125)
+  background-color: rgba(27, 22, 66, .03);
+  border-top: 0 solid rgba(27, 22, 66, .125)
 }
 
 .card-footer:last-child {
@@ -315,18 +317,22 @@ a:hover {
   border-radius: 0
 }
 
-.card-img,.card-img-bottom,.card-img-top {
+.card-img,
+.card-img-bottom,
+.card-img-top {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%
 }
 
-.card-img,.card-img-top {
+.card-img,
+.card-img-top {
   border-top-left-radius: 0;
   border-top-right-radius: 0
 }
 
-.card-img,.card-img-bottom {
+.card-img,
+.card-img-bottom {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0
 }
@@ -337,24 +343,24 @@ a:hover {
 
 @media (min-width: 576px) {
   .card-deck {
-      display:-webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-      margin-right: -16px;
-      margin-left: -16px
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -16px;
+    margin-left: -16px
   }
 
   .card-deck .card {
-      -webkit-box-flex: 1;
-      -ms-flex: 1 0 0%;
-      flex: 1 0 0%;
-      margin-right: 16px;
-      margin-bottom: 0;
-      margin-left: 16px
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 16px;
+    margin-bottom: 0;
+    margin-left: 16px
   }
 }
 
@@ -364,51 +370,55 @@ a:hover {
 
 @media (min-width: 576px) {
   .card-group {
-      display:-webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-      flex-flow: row wrap
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap
   }
 
   .card-group>.card {
-      -webkit-box-flex: 1;
-      -ms-flex: 1 0 0%;
-      flex: 1 0 0%;
-      margin-bottom: 0
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-bottom: 0
   }
 
   .card-group>.card+.card {
-      margin-left: 0;
-      border-left: 0
+    margin-left: 0;
+    border-left: 0
   }
 
   .card-group>.card:not(:last-child) {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
   }
 
-  .card-group>.card:not(:last-child) .card-header,.card-group>.card:not(:last-child) .card-img-top {
-      border-top-right-radius: 0
+  .card-group>.card:not(:last-child) .card-header,
+  .card-group>.card:not(:last-child) .card-img-top {
+    border-top-right-radius: 0
   }
 
-  .card-group>.card:not(:last-child) .card-footer,.card-group>.card:not(:last-child) .card-img-bottom {
-      border-bottom-right-radius: 0
+  .card-group>.card:not(:last-child) .card-footer,
+  .card-group>.card:not(:last-child) .card-img-bottom {
+    border-bottom-right-radius: 0
   }
 
   .card-group>.card:not(:first-child) {
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
   }
 
-  .card-group>.card:not(:first-child) .card-header,.card-group>.card:not(:first-child) .card-img-top {
-      border-top-left-radius: 0
+  .card-group>.card:not(:first-child) .card-header,
+  .card-group>.card:not(:first-child) .card-img-top {
+    border-top-left-radius: 0
   }
 
-  .card-group>.card:not(:first-child) .card-footer,.card-group>.card:not(:first-child) .card-img-bottom {
-      border-bottom-left-radius: 0
+  .card-group>.card:not(:first-child) .card-footer,
+  .card-group>.card:not(:first-child) .card-img-bottom {
+    border-bottom-left-radius: 0
   }
 }
 
@@ -418,18 +428,25 @@ a:hover {
 
 @media (min-width: 576px) {
   .card-columns {
-      -webkit-column-count:3;
-      -moz-column-count: 3;
-      column-count: 3;
-      -webkit-column-gap: 1.25rem;
-      -moz-column-gap: 1.25rem;
-      column-gap: 1.25rem;
-      orphans: 1;
-      widows: 1
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1
   }
 
   .card-columns .card {
-      display: inline-block;
-      width: 100%
+    display: inline-block;
+    width: 100%
+  }
+
+}
+
+@media (max-width: 576px) {
+  .content {
+    padding: 16px;
   }
 }
